@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "funded-trader",
   "private": true,
   "scripts": {
     "build": "turbo run build",
