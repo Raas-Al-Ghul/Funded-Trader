@@ -21,18 +21,58 @@ coverage
 # Vercel
 .vercel
 
-# Build Outputs
-.next/
-out/
+# Build Outputss
 build
 dist
-
-
-# Debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Misc
 .DS_Store
 *.pem
+coverage/
+dist/
+
+
+# Node modules
+node_modules/
+.next/
+out/
+
+# Logs and Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.gz
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+*.bak
+*.tmp
+
+# Dependencies lock files (if you're using a specific package manager, keep its lock file)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Next.js build and cache
+.next/
+out/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Storybook
+.storybook-out/
+
+# Miscellaneous
+
